@@ -1,0 +1,26 @@
+>>> Recommended Computational Power & Environment <<<
+
+We advise you to run the code on Google Colab with at least the T4 GPU unit selected, anything less takes significant amounts of time to process.
+That holds especially true for the LSTM Model Tuning.
+
+You can also use colab or your local computer, in that case just comment out the Google Colab Code Cells and follow the instructions in the code.
+
+
+
+>>> How to run the code on Google Colab <<<
+
+1. When you read this you already unpacked the .zip file provided.
+2. It is important that you upload the folder as unpacked to Google Drive (e.g. the whole "NLP_Final_Exam_All_Files" Folder with the existing hierarchy)
+3. Once uploaded, the "NLP_Final_Exam_Code.ipynb" jupyter notebook can be opened in Colab. It contains some more comments and markdown explaining exactly what needs changing to have dynamic file pathing
+4. Once the Google drive has been mounted correctly, and the Dynamic File Path section of the code verifies the correct paths, the code is operational.
+
+
+
+>>> Which sections can be run? <<<
+
+Most sections should run without propblem (e.g. data cleaning, LogReg, LSTM, BERT). However, as we also noted in the reprot, Mistral AI in voth variants (Few-Shot and Zero-Shot) is highly demanding in computational power.
+
+Furthermore, to make this code work, a API key is required, which we can not share due to privacy and security reasons. Technically you could request your own API Key, to still run the code. But we would advise against it, as it took significant time no matter on which machine configuration we run it.
+
+However, for convenience sake, we recommend to not run that part of the code and only inspect the saved output from our run.
+Additionally, we saved the output for both Mistral Variants in the Folder "Mistral AI - Output".
